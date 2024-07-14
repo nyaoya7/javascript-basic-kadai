@@ -1,8 +1,8 @@
 
-var num = 8;
+var num = 9;
 
-const squareNumber = () => {
-    console.log(num * num);
+const squareNumber = (num) => {
+    return (num * num);
 }
 
-squareNumber (num);
+console.log(squareNumber (num));
